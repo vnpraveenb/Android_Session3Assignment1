@@ -3,5 +3,3 @@
 Problem Statement:
 Design the VIBGYOR screen using linear layout. 
 
-Expected Output:
-VIBGYOR like shown above in image
