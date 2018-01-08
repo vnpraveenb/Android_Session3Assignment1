@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.praveen.session3assignment1.MainActivity">
+
+    <TextView
+        android:id="@+id/textRed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/redColor"
+        android:text="@string/redText"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textOrange"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/orangeColor"
+        android:text="@string/orangeText"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textYellow"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/yellowColor"
+        android:text="@string/yellowText"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textGreen"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/greenColor"
+        android:text="@string/greenText"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textBlue"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/blueColor"
+        android:text="@string/blueText"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textIndigo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/indigoColor"
+        android:text="@string/indigoText"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViolet"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/violetColor"
+        android:text="@string/violetText"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="22dp"
+        android:textSize="20sp" />
+
+</LinearLayout>
